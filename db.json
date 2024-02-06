@@ -1,0 +1,149 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Post 1"
+    },
+    {
+      "id": "2",
+      "title": "Post 2"
+    },
+    {
+      "id": "3",
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "Comment 1",
+      "postId": 1
+    },
+    {
+      "id": "2",
+      "body": "Comment 2",
+      "postId": 1
+    },
+    {
+      "id": "3",
+      "body": "Comment 3",
+      "postId": 2
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Mahir",
+      "isParent": true,
+      "isChild": false,
+      "parentName": ""
+    },
+    {
+      "id": 2,
+      "name": "Sadman",
+      "isParent": false,
+      "isChild": true,
+      "parentName": "Mahir"
+    },
+    {
+      "id": 3,
+      "name": "user1",
+      "isParent": false,
+      "isChild": true,
+      "parentName": "Sadman"
+    },
+    {
+      "id": 4,
+      "name": "Haider",
+      "isParent": true,
+      "isChild": false,
+      "parentName": ""
+    },
+    {
+      "id": 5,
+      "name": "Chandan",
+      "isParent": false,
+      "isChild": true,
+      "parentName": "Haider"
+    },
+    {
+      "id": 6,
+      "name": "Mostofa",
+      "isParent": true,
+      "isChild": false,
+      "parentName": ""
+    },
+    {
+      "id": 7,
+      "name": "Kashif",
+      "isParent": false,
+      "isChild": true,
+      "parentName": "Mahir"
+    },
+    {
+      "id": 77,
+      "name": "jjj",
+      "isParent": false,
+      "isChild": true,
+      "parentName": "Mahir"
+    }
+  ],
+  "submittedItems": [
+    {
+      "id": 1,
+      "name": "Mahir",
+      "isParent": true,
+      "isChild": false,
+      "parentName": null
+    },
+    {
+      "id": 2,
+      "name": "Sadman",
+      "isParent": false,
+      "isChild": true,
+      "parentName": "Mahir"
+    },
+    {
+      "id": 3,
+      "name": "user1",
+      "isParent": false,
+      "isChild": true,
+      "parentName": "Sadman"
+    },
+    {
+      "id": 4,
+      "name": "Haider",
+      "isParent": true,
+      "isChild": false,
+      "parentName": null
+    },
+    {
+      "id": 5,
+      "name": "Chandan",
+      "isParent": false,
+      "isChild": true,
+      "parentName": "Haider"
+    },
+    {
+      "id": 6,
+      "name": "Mostofa",
+      "isParent": true,
+      "isChild": false,
+      "parentName": null
+    },
+    {
+      "id": 7,
+      "name": "Kashif",
+      "isParent": false,
+      "isChild": true,
+      "parentName": "Mahir"
+    },
+    {
+      "id": 77,
+      "name": "jjj",
+      "isParent": false,
+      "isChild": true,
+      "parentName": "Mahir"
+    }
+  ]
+}
